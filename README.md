@@ -8,7 +8,7 @@ Or download an executable packaged with pyinstaller for your operating system
 
 ## Executables
 
-Executables are available for
+Executables will be made available for
 - Ubuntu 16.0 and higher 64 bit OSes 
 - Windows 7/10 64 bit
 
