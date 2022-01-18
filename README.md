@@ -9,8 +9,8 @@ Or download an executable packaged with pyinstaller for your operating system
 ## Executables
 
 Executables will be made available for
-- Ubuntu 16.0 and higher 64 bit OSes 
-- Windows 7/10 64 bit
+- Ubuntu 16.0 and higher 64 bit OSes [LINK](https://drive.google.com/file/d/12zjT6GZFb96UReCOf2yHxugJ0xJauC9z/view?usp=sharing)
+- Windows 7/10 64 bit [LINK](https://drive.google.com/file/d/1k90gq6PHvEMPehrr0eNGvnjqvOXS7xSk/view?usp=sharing)
 
 # How to Play
 
