@@ -34,6 +34,17 @@ An executable file is available for the following 64 bit operating systems:
 - Ubuntu 16.0 or higher  [LINK](https://drive.google.com/file/d/12zjT6GZFb96UReCOf2yHxugJ0xJauC9z/view?usp=sharing)
 - Windows 7/10 [LINK](https://drive.google.com/file/d/1k90gq6PHvEMPehrr0eNGvnjqvOXS7xSk/view?usp=sharing)
 
+For Ubuntu OSes, download the zip file from the above link, unzip, open a terminal and navigate to root directory of the unzipped folder. Make sure the file has permissions to run by entering
+```bash
+sudo chmod +x spaceinvaders
+```
+Or right-click on the file, select Properties > Permissions and check the box "Allow this file to run a program"
+
+Than enter following command:
+```bash
+./spaceinvaders
+```
+For the windows binary, download and unzip, navigate to the root folder and simply double-click on the binary
 # How to Play
 
 Once you can run the game _(NOTE: the executable takes a bit to load)_ you will be presented with an intro screen.
