@@ -6,7 +6,8 @@ A [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) clone made with
 ## Requirements
 
 Requires python 3.7 or higher, and pygame 2.x to run the python script.
-Or download an executable packaged with pyinstaller for your operating system
+
+Or download an [executable](#binary-files) packaged with [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/) for your operating system
 
 First download/fork the repo, than install the required packages by using pip and the provided _requirements.txt_:
 ```bash
@@ -28,25 +29,30 @@ Navigate to the top level directory of the repository via the command line and r
 ```
 python spaceinvaders.py
 ```
-## Executable
+## Binary Files
+Binary releases for 64 bit Ubuntu 16.0+ and Windows 7/10 - [LINK](https://github.com/sitaber/Space-Invaders/releases)
 
-An executable file is available for the following 64 bit operating systems: 
-- Ubuntu 16.0 or higher  [LINK](https://drive.google.com/file/d/12zjT6GZFb96UReCOf2yHxugJ0xJauC9z/view?usp=sharing)
-- Windows 7/10 [LINK](https://drive.google.com/file/d/1k90gq6PHvEMPehrr0eNGvnjqvOXS7xSk/view?usp=sharing)
+### For Ubuntu: 
+1. download the zip file from the above link
+2. unzip 
+3. open a terminal and navigate to root directory of the unzipped folder. 
+4. Make sure the file has permissions to run by entering
+  ```bash
+  sudo chmod +x spaceinvaders
+  ```
+  Or right-click on the file, select Properties > Permissions and check the box "Allow this file to run a program"
 
-For Ubuntu OSes, download the zip file from the above link, unzip, open a terminal and navigate to root directory of the unzipped folder. Make sure the file has permissions to run by entering
-```bash
-sudo chmod +x spaceinvaders
-```
-Or right-click on the file, select Properties > Permissions and check the box "Allow this file to run a program"
+5.Than enter following command:
+  ```bash
+  ./spaceinvaders
+  ```
+### For Windows: 
+1. download
+2. unzip
+3. navigate to the root folder 
+4. double-click on the binary
 
-Than enter following command:
-```bash
-./spaceinvaders
-```
-For the windows binary, download and unzip, navigate to the root folder and simply double-click on the binary
 # How to Play
-
 Once you can run the game _(NOTE: the executable takes a bit to load)_ you will be presented with an intro screen.
 
 - Press _SPACE_ to start play
@@ -55,9 +61,4 @@ Once you can run the game _(NOTE: the executable takes a bit to load)_ you will 
 - Use _SPACE_ bar to shoot
 - Try for the high score!
 
-# CODE
-
-The code is poorly structured and non-modular. It a bunch of classes and functions called in a while loop.
-Future attempts may be made to improve the code. Feel free to fork and make your own modifications!
-
-ENJOY!
+# ENJOY!
