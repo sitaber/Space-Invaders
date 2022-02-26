@@ -12,7 +12,7 @@ A [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) clone made with
 Or download an [executable](#binary-files) packaged with [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/) for your operating system
 
 ## Binary Files
-Binary releases for 64 bit Ubuntu 16.0+ and Windows 7/10 - [https://github.com/sitaber/Space-Invaders/releases](https://github.com/sitaber/Space-Invaders/releases)
+Binary releases for 64 bit Ubuntu 16.0+ and Windows 7/10 - [https://github.com/sitaber/SpaceInvaders/releases](https://github.com/sitaber/SpaceInvaders/releases)
 
 ### For Ubuntu: 
 1. Download the zip file and unzip
