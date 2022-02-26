@@ -20,7 +20,7 @@ Binary releases for 64 bit Ubuntu 16.0+ and Windows 7/10 - [https://github.com/s
     - right-click on the file, select Properties > Permissions and check the box "Allow this file to run a program" 
 3. Open a terminal in the directory on enter
   ```
-  ./spaceinvader
+  ./spaceinvaders
   ```
 ### For Windows: 
 1. Download
