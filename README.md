@@ -1,5 +1,5 @@
 # Space Invaders
-A [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) clone made with python and pygame utilizing information found at [computerarcheology.com](https://www.computerarcheology.com/Arcade/SpaceInvaders/) to make an accurate clone (as close as possible at least)
+[Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) made with python and pygame. Information found on [computerarcheology.com](https://www.computerarcheology.com/Arcade/SpaceInvaders/) was used to make the mechanics closely match the arcade version 
 
 ![Screen shot of game play](./images/gameplay.png "Gameplay")
 
