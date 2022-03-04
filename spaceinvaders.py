@@ -395,6 +395,7 @@ class ScoreStash():
         self.hiscore = int(self.hiscore)
 
         nums = os.listdir( os.getcwd()+'/images/numbers_text/')
+        nums.sort()
         self.num_list = [pygame.image.load('images/numbers_text/' + x) for x in nums]
         self.score = 0
         self.extra_life = 0
