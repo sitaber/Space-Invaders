@@ -19,7 +19,7 @@ Information from [computerarcheology.com](https://www.computerarcheology.com/Arc
 3. Try for the high score!
 
 ## Installation
-### For `Windows` 64 bit
+### `Windows` 64 bit
 
 - :arrow_down: [Download](https://github.com/sitaber/SpaceInvaders/releases) `SpaceInvaders-v1.0.0_windows_x64.zip` and unzip it.
 - Run the executable named `spaceinvaders.exe` inside the extracted folder.
@@ -46,29 +46,28 @@ Information from [computerarcheology.com](https://www.computerarcheology.com/Arc
 
 You need to have `pygame` and _(obviously)_ `python` installed for this option. 
 
-### For `Ubuntu/Debian`
 - Install `python`, `pygame`, and all the necessary dependencies. The following is the easiest method:
     ```bash
     $ sudo apt-get install python3-pygame
     ```
-- Clone or Download the repo
+- Clone or Download
     - __Clone__
     ```bash
     git clone https://github.com/sitaber/SpaceInvaders.git
     cd SpaceInvaders/ 
     python3 spaceinvaders.py
     ```
-    - __Download__
-        - :arrow_down: [Download](https://github.com/sitaber/SpaceInvaders/archive/refs/heads/main.zip) the repo and unzip
-        ```bash
-        $ unzip ~/Downloads/SpaceInvaders-main.zip -d ~/Desktop
-        $ cd ~/Desktop
-        $ ## navigate to the unzipped folder
-        $ cd SpaceInvaders-main
-        $ python3 spaceinvaders.py
-        ```
+    - :arrow_down: [Download](https://github.com/sitaber/SpaceInvaders/archive/refs/heads/main.zip) and unzip
 
-### For `MacOS` 
+    ```bash
+    $ unzip ~/Downloads/SpaceInvaders-main.zip -d ~/Desktop
+    $ cd ~/Desktop
+    $ ## navigate to the unzipped folder
+    $ cd SpaceInvaders-main
+    $ python3 spaceinvaders.py
+    ```
+
+### `MacOS` 
 I don't have an `macOS` system to build the executable or test installing `python` and `pygame`.
 
 You can follow these [instructions](https://webcache.googleusercontent.com/search?q=cache:kyThG2mLWUsJ:https://www.pygame.org/wiki/MacCompile+&cd=1&hl=en&ct=clnk&gl=us&client=ubuntu) from the `pygame` website, or do an internet search for them.
