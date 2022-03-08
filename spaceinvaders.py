@@ -1,5 +1,15 @@
-import pygame, sys, os
-#os.environ['SDL_AUDIODRIVER'] = 'pulse ' # possible fix to underrun
+# -----------------------------------------------------------------------------
+# Author: Scott Taber
+# File: spaceinvader.py 
+# The classic arcade game Space Invaders recreated with Python and Pygame 
+# -----------------------------------------------------------------------------
+
+import os
+import sys
+
+import pygame
+
+
 class Shield(pygame.sprite.Sprite):
     def __init__(self, pos):
         super().__init__()
@@ -602,6 +612,7 @@ def make_invaders(state = 0):
     return aliens
 
 # Game variables / Objects
+#os.environ['SDL_AUDIODRIVER'] = 'pulse ' # possible fix to underrun
 pygame.mixer.pre_init(buffer=512)
 pygame.mixer.init()
 pygame.init()
